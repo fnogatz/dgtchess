@@ -1,0 +1,27 @@
+{
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "name": "dgtchess",
+  "description": "Node.js driver for DGT electronic chess boards",
+  "keywords": [
+    "chess",
+    "board",
+    "DGT",
+    "driver",
+    "serialport"
+  ],
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "serialport": "1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fnogatz/node-dgtchess.git"
+  },
+  "bugs": {
+    "url": "http://github.com/fnogatz/node-dgtchess/issues"
+  }
+}
