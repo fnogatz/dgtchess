@@ -1,6 +1,7 @@
 {
   "commands": {
     "DGT_SEND_RESET": "40",
+    "DGT_SEND_BRD": "42",
     "DGT_SEND_UPDATE_BRD": "44",
     "DGT_RETURN_SERIALNR": "45",
     "DGT_SEND_VERSION": "4D"

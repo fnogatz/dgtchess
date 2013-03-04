@@ -30,6 +30,55 @@ modus and instead of moves only changes are triggered through the 'data' event.
 	  console.log('-----');
 	});
 
+	board.on('move', function(move) {
+	  console.log('Move:', move);
+	  console.log('-----');
+	});
+
+This might result in the following output:
+
+	Serial No: 12345
+	Version: 1.7
+	   +------------------------+
+	 8 | .  .  .  .  .  .  .  . |
+	 7 | .  .  .  .  .  .  .  . |
+	 6 | .  .  .  .  .  .  .  . |
+	 5 | .  .  .  .  .  k  .  . |
+	 4 | .  .  R  .  .  .  .  . |
+	 3 | .  .  .  .  .  K  .  . |
+	 2 | .  .  .  .  .  .  .  . |
+	 1 | .  .  .  .  .  .  .  . |
+	   +------------------------+
+	     a  b  c  d  e  f  g  h
+
+	-----
+	Field: c4
+	Piece: EMPTY
+	-----
+	Field: c5
+	Piece: WROOK
+	-----
+	Move: { color: 'w',
+	  from: 'c4',
+	  to: 'c5',
+	  flags: 'n',
+	  piece: 'r',
+	  san: 'Rc5+' }
+	-----
+	Field: f5
+	Piece: EMPTY
+	-----
+	Field: e6
+	Piece: BKING
+	-----
+	Move: { color: 'b',
+	  from: 'f5',
+	  to: 'e6',
+	  flags: 'n',
+	  piece: 'k',
+	  san: 'Ke6' }
+	-----
+
 ## Events
 
 ### 'ready'
