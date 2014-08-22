@@ -15,7 +15,7 @@ modus and instead of moves only changes are triggered through the 'data' event.
 
 ## Usage
 
-	var DGT = require('..');
+	var DGT = require('dgtchess');
 	var board = new DGT.Board('/dev/ttyUSB0');
 
 	board.on('ready', function() {
