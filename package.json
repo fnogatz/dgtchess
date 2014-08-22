@@ -9,14 +9,14 @@
     "driver",
     "serialport"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=0.8"
   },
   "dependencies": {
-    "serialport": "1.0.x",
-    "chess.js": "0.1.x"
+    "serialport": "^1.4.5",
+    "chess.js": "^0.1.0"
   },
   "repository": {
     "type": "git",
