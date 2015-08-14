@@ -9,9 +9,9 @@ Install via npm:
 
 ## Status
 
-This project is still under heavy development. Currently only the boards connected via USB are
-supported and no clock commands are implemented yet. The module uses only the `UPDATE BOARD`
-modus and instead of moves only changes are triggered through the 'data' event.
+This project is still in alpha-status. Unfortunately I don't have access to a DGT chess board, so I can't continue development. Please contact me if you want to continue the development of this module or have a DGT board to lend for some weeks.
+
+The current version of this module uses only the `UPDATE BOARD` modus and instead of moves, only changes are triggered through the 'data' event.
 
 ## Usage
 
