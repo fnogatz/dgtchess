@@ -1,5 +1,4 @@
-dgtchess
-========
+# dgtchess
 
 An event-driven node.js driver for the electronic [DGT](http://dgtprojects.com) chess board.
 
@@ -98,7 +97,3 @@ The protocol for communicating with the electronic chess boards is well document
 [their developer section](http://www.dgtprojects.com/site/index.php/dgtsupport/developer-info).
 There you can find the [DGT Electronic Board Protocol Description (version 20120309)](http://www.dgtprojects.com/site/index.php/dgtsupport/developer-info/downloads/doc_download/85-dgt-electronic-board-protocol-description-version-20120309)
 which is the base for this node.js implementation.
-
-## Licence
-
-This project stands under the MIT Licence, see LICENCE.md for details.
