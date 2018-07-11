@@ -2,8 +2,6 @@
 
 An event-driven node.js driver for the electronic [DGT](http://dgtprojects.com) chess board.
 
-__Note:__ node-dgtchess currently only supports node.js of version 0.10 and 0.12.
-
 Install via npm:
 
 	npm install dgtchess
