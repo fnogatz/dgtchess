@@ -12,8 +12,9 @@
   "version": "0.0.4",
   "main": "./lib/index.js",
   "engines": {
-    "node": ">=0.8"
+    "node": ">=0.8 <=0.12"
   },
+  "license": "MIT",
   "dependencies": {
     "serialport": "^1.4.5",
     "chess.js": "^0.1.0"
