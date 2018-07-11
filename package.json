@@ -16,8 +16,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "serialport": "^1.4.5",
-    "chess.js": "^0.1.0"
+    "chess.js": "^0.1.0",
+    "serialport": "^6.2.1"
   },
   "repository": {
     "type": "git",
