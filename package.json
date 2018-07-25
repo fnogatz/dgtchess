@@ -15,6 +15,10 @@
     "node": ">= 4"
   },
   "license": "MIT",
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run standard"
+  },
   "dependencies": {
     "chess.js": "^0.1.0",
     "serialport": "^6.2.1"
