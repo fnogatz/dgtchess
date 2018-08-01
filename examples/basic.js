@@ -14,15 +14,16 @@ board.on('data', function (data) {
   console.log('-----')
 })
 
+board.on('move', function (move) {
+  console.log('Move:', move)
+  console.log('-----')
+})
+
 /**
  * TODO:
  */
 
 /*
-board.on('move', function(move) {
-
-});
-
 board.on('end', function(result) {
 
 });
