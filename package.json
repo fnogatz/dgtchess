@@ -9,7 +9,7 @@
     "driver",
     "serialport"
   ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "./lib/index.js",
   "engines": {
     "node": ">= 4"
