@@ -1,5 +1,5 @@
-var DGT = require('..')
-var board = new DGT.Board('/dev/ttyUSB0')
+const DGT = require('..')
+const board = new DGT.Board('/dev/ttyUSB0')
 
 board.on('ready', function () {
   console.log('Serial No:', board.serialNo)
