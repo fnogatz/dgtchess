@@ -1,6 +1,6 @@
 # dgtchess
 
-An event-driven node.js driver for the electronic [DGT](http://dgtprojects.com) chess board.
+An event-driven JavaScript connector for the electronic [DGT](http://dgtprojects.com) chess board.
 
 Install via npm:
 

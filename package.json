@@ -1,7 +1,7 @@
 {
   "author": "Falco Nogatz <fnogatz@gmail.com>",
   "name": "dgtchess",
-  "description": "Node.js driver for DGT electronic chess boards",
+  "description": "JavaScript connector for DGT electronic chess boards",
   "keywords": [
     "chess",
     "board",
@@ -28,9 +28,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fnogatz/node-dgtchess.git"
+    "url": "git://github.com/fnogatz/dgtchess.git"
   },
   "bugs": {
-    "url": "http://github.com/fnogatz/node-dgtchess/issues"
+    "url": "http://github.com/fnogatz/dgtchess/issues"
   }
 }
