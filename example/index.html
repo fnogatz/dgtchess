@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dgtchess – Access DGT chess board via WebUSB</title>
+
+    <script src="plugins/chessground/chessground.min.js"></script>
+    <link rel="stylesheet" href="plugins/chessground/base.css">
+    <link rel="stylesheet" href="plugins/chessground/colors.css">
+    <link rel="stylesheet" href="plugins/chessground/pieces.css">
+
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <button onclick="loadBoard()">Load position from DGT board</button> 
+
+    <p><strong>Serial Nr:</strong> <span id="serialnr">n/a</span></p>
+    <p><strong>Version:</strong> <span id="version">n/a</span></p>
+
+    <div id="chessground" style="width: 600px; height: 600px; margin-top: 30px;"></div>
+  </body>
+</html>

@@ -10,21 +10,22 @@
     "serialport"
   ],
   "version": "0.1.5",
-  "main": "./lib/index.js",
+  "main": "./lib/Board.js",
   "engines": {
     "node": ">= 4"
   },
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "standard": "standard",
     "test": "npm run standard"
   },
   "dependencies": {
-    "chess.js": "^0.1.0",
-    "serialport": "^6.2.1"
+    "serialport": "^9.0.4"
   },
   "devDependencies": {
-    "standard": "^14.0.2"
+    "babel-eslint": "^10.1.0",
+    "standard": "^16.0.3"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,8 @@
   },
   "bugs": {
     "url": "http://github.com/fnogatz/dgtchess/issues"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
