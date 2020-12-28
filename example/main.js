@@ -44,8 +44,11 @@ import Board from '../lib/Board.js'
       }
     }
 
+    // do not use `Board.FILTERS` as of now since we do not
+    //   know all valid identifiers, also when using a VM etc.
+    const filters = []
     return await serial.requestPort({
-      filters: Board.FILTERS
+      filters: filters
     })
   }
 })()
