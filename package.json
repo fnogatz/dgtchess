@@ -9,13 +9,13 @@
     "driver",
     "serialport"
   ],
-  "version": "0.1.5",
+  "version": "1.0.0",
   "main": "./lib/Board.node.js",
   "engines": {
-    "node": ">= 4"
+    "node": ">= 15"
   },
   "type": "module",
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "standard": "standard",
     "test": "npm run standard"
