@@ -10,7 +10,7 @@
     "serialport"
   ],
   "version": "0.1.5",
-  "main": "./lib/Board.js",
+  "main": "./lib/Board.node.js",
   "engines": {
     "node": ">= 4"
   },

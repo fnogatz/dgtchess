@@ -14,7 +14,6 @@
       (function () {
         window.loadBoard = loadBoard
 
-        const serial = navigator.serial
         let board
         let chessground
 
@@ -44,7 +43,7 @@
         }
 
         async function getPort () {
-          const ports = await serial.getPorts()
+          const ports = await navigator.serial.getPorts()
           for (const port of ports) {
             for (const filter of Board.FILTERS) {
               if (port.productId === filter.productId && port.vendorId === filter.vendorId) {
@@ -56,7 +55,7 @@
           // do not use `Board.FILTERS` as of now since we do not
           //   know all valid identifiers, also when using a VM etc.
           const filters = []
-          return await serial.requestPort({
+          return await navigator.serial.requestPort({
             filters: filters
           })
         }
