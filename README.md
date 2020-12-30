@@ -13,9 +13,9 @@ Because the Web Serial API is available only on modern browsers, it is very like
 <script type="module" src="main.js">
   import Board from 'chessground/Board.js'
   async function loadBoard () {
-  	const port = await navigator.serial.requestPort({})
-  	const board = new Board(port)
-  	const { serialNr, version, position } = await board.reset()
+    const port = await navigator.serial.requestPort({})
+    const board = new Board(port)
+    const { serialNr, version, position } = await board.reset()
     console.log(serialNr, version)
     console.log(position.ascii)
   }
