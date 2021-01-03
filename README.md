@@ -63,8 +63,6 @@ This might result in the following output:
 
 ## Status
 
-This project is still in alpha-status. Unfortunately I don't have access to a DGT chess board, so I can't continue development. Please contact me if you want to continue the development of this module or have a DGT board to lend for some weeks.
-
 The current version of this module uses only the `UPDATE BOARD` modus and instead of moves, only changes are triggered through the 'data' event.
 
 ## Background
